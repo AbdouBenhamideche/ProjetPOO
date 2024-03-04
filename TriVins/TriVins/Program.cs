@@ -8,6 +8,10 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using TriVins;
 
+
+
+
+
 // Chemin vers votre fichier CSV
 string filePath = @"DONNE\train_reduced.csv";
 
