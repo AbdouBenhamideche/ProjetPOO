@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CsvHelper.Configuration.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,10 @@ namespace TriVins
     {
         public double alcohol { get; set; }
         public double sulphates { get; set; }
+
+        [Name("citric acid")]
         public double citricacid { get; set; }
+        [Name("volatile acidity")]
         public double volatileacidity { get; set; }
         public int quality { get; set; }
 
@@ -18,3 +22,4 @@ namespace TriVins
         public Vin() { }
     }
 }
+    
